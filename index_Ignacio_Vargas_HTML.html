@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Html Front End</title>
+    
+</head>
+    <!-- Punto 4.1  -->
+<div>
+         <h1>1.Estructura basica del HTML </h1>
+            <p>Este documento HTML tiene una estructura basica que
+               incluye la declaracion DOCTYPE,etiqueta de metadatos y un titulo
+            </p>
+</div>
+    <!-- Punto 4.2 -->
+<div>
+        
+         <h2> 2.Encabezado y Propiedades de texto</h2>
+             <p><b> Este es un texto en negrita</b></p>
+             <p><em>Este es un texto en cursiva</em></p>
+             <p><u>Este es un texto subrayado</u></p>
+             <p><s>Este es un texto tachado</s></p>
+             <p><mark>Este es un texto resaltado</mark></p>
+</div>
+ <!-- Punto 4.3 -->
+<div>
+   
+        <h3> 3.Division y agrupacion de contenido</h3>
+    <div>
+        <h4><em><u>Seccion 1</u></em></h4>
+            <p>Contenido de la primera seccion agrupada en el Div</p>
+    </div>
+    <div>
+        <h4><em><u>Seccion 2</u></em></h4>
+            <p>Contenido de la segunda seccion agrupada en el Div</p>
+    </div>
+</div>
+<br>
+ <!-- Punto 4.4 -->
+<div>
+        <H3><u>4.Listas y enlaces</u></H3>
+            <P>Visita nuestro <a href="https://wikipedia.org" target="_blank">Sitio WEB</a>
+               para mas informacion
+            </P>
+    <div>
+        <h5>Enlaces internos</h5>
+        <nav>
+        <ul>
+            <li><a href="https://es.wikipedia.org/wiki/Javier_Milei" target="_blank">Ir con el Jefe</a></li>
+            <li><a href="https://es.wikipedia.org/wiki/Buenos_Aires" target="_blank">Ir a la sede</a></li>
+            <li><a href="https://es.wikipedia.org/wiki/Julio_Argentino_Roca" target="_blank">Ir con el crador</a></li>
+        </ul>   
+        </nav>
+    </div>
+    <div>
+        <h5>Lista desordenada: </h5>
+       <ul>
+            <li>Primer item de la lista desordenada</li>
+            <li>Segundo item de la lista desordenada</li>
+       </ul>   
+    </div>
+    <div>
+        <h6>Lista ordenada:</h6>
+         <ol>
+            <li>Primer item de la lista ordenada</li>
+            <li>Segundo item de la lista ordenada</li>
+         </ol>
+    </div>
+    <br>
+    <!-- punto 4.5 -->
+    <div>
+        <img src="https://thumbs.dreamstime.com/z/hacker-mirando-
+                 la-c%C3%A1mara-con-una-m%C3%A1scara-facial-fondo-de-pantalla-tema-oscuro-generado-por-ai-291465611.jpg?ct=jpeg" 
+            width="150px"
+            height="150px"
+            alt="Es la imagen principal">
+        <video src="https://www.w3schools.com/html/mov_bbb.mp4"
+                 controls width="150px"
+                 height="150px"></video>
+        <audio src="https://www.w3schools.com/html/horse.ogg" controls></audio>
+    </div>
+    <!-- punto 4.6 -->
+    <br>
+    <div>
+        <style>table{
+            width: 100%;
+            border-collapse: collapse;
+        }
+          th,td{
+                border: 1px solid black;
+                padding: 8px;
+                text-align: center;
+          }
+          tfoot {
+            background-color: aqua;
+            font-weight: bold;
+          }
+
+        </style>
+        <table>
+            <thead>
+                <tr>    
+                    <th>Columna 1</th>
+                    <th>Columna 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Dato 1</td>
+                    <td>Dato 2</td>
+                </tr>
+                <tr>
+                    <td>Dato 3</td>
+                    <td>Dato 4</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                    <td>total 1</td>
+                    <td>total 2</td>
+            </tfoot>
+        </table>
+    </div>
+    <!-- punto 4.7 -->
+    <br>
+    <div>
+        <form>
+            <div>
+                <label>Email</label>
+                <input type="email" placeholder="exaple@exaple.com"></input>
+                <label>Nombre</label>
+                <input type="Nombre" placeholder="ingrese su Nombre"></input>
+                <label>Mensaje</label>
+                <input type="Mensaje" placeholder="ingrese un mensaje"></input>
+            </div>
+            <div>
+                <button type="submit">Enviar Datos</button>
+            </div>
+        </form>
+    </div>
+    <!-- punto 4.8 -->
+     </br>
+     <div>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+            }
+            header,footer{
+                background-color: green;
+                color: white;
+                text-align: center;
+                padding: 10px;
+            }
+            main{
+                padding: 10px;
+            }
+            section{
+                margin-bottom: 20px;
+                border: 1px solid black;
+                padding: 8px;
+            }
+            aside {
+            width: 200px;
+            padding: 20px;
+            background-color: #f4f4f4;
+            border-left: 1px solid #ccc;
+        }
+        </style>
+        <header>
+            <h1>Encabezado principal</h1>
+        </header>
+        <main>
+            <section>
+                <aside>
+                    <h2>Barra Lateral</h2>
+                    <p>Este es el contenido de la barra lateral. Puedes incluir enlaces, citas, notas, etc.</p>
+                    <nav>
+                        <ul>
+                            <li><a href="https://es.wikipedia.org/wiki/Javier_Milei" target="_blank">Ir con el Jefe</a></li>
+                            <li><a href="https://es.wikipedia.org/wiki/Buenos_Aires" target="_blank">Ir a la sede</a></li>
+                            <li><a href="https://es.wikipedia.org/wiki/Julio_Argentino_Roca" target="_blank">Ir con el crador</a></li>
+                        </ul>   
+                    </nav>
+                </aside>
+            </section>
+            
+            <article>
+                <h1><u>Estructura basica del documento HTML</u></h1>
+                <p>Descripcion de la estructura</p>
+                <p>Informacion complementaria</p>
+            </article>
+
+        </main>
+        <footer>
+          <h4>2024 Trabajo practico de HTML</h4>
+        </footer>
+
+
+     </div>
+</div>
+</body>
+</html>
